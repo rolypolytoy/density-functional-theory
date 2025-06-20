@@ -1,0 +1,46 @@
+&control
+    calculation     = 'scf'
+    prefix          = 'SnSe_trilayer'
+    restart_mode    = 'from_scratch'
+    outdir          = './'
+    wf_collect      = .true.
+    verbosity       = 'high'
+/
+&system
+    ibrav           = 8
+    a               = 4.12625095
+    b               = 4.70090745
+    c               = 29.72905430
+    nat             = 12
+    ntyp            = 2
+    ecutwfc         = 48.0
+    ecutrho         = 250.0
+    occupations     = 'smearing'
+    smearing        = 'f-d'
+    degauss         = 1.0e-3
+    noncolin        = .true.
+    lspinorb        = .true.
+/
+&electrons
+    conv_thr        = 1.0e-8
+    mixing_beta     = 0.7
+    electron_maxstep = 100
+/
+ATOMIC_SPECIES
+Sn 118.7100 Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+Se  78.9600 Se.pbe-dn-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Sn 0.75000000 0.12344570 0.25230846
+Se 0.25000000 0.50918180 0.26398888
+Sn 0.25000000 0.62344570 0.35528600
+Se 0.75000000 0.00918180 0.34360558
+Sn 0.75000000 0.37655430 0.44851123
+Se 0.25000000 0.99081820 0.46019165
+Sn 0.25000000 0.87655430 0.55148877
+Se 0.75000000 0.49081820 0.53980835
+Sn 0.75000000 0.12344570 0.64471400
+Se 0.25000000 0.50918180 0.65639442
+Sn 0.25000000 0.62344570 0.74769154
+Se 0.75000000 0.00918180 0.73601112
+K_POINTS automatic
+6 6 1 0 0 0
