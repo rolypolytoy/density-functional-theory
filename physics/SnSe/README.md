@@ -18,7 +18,7 @@ I use Quantum Espresso (open source for the win!) to perform my SCF calculations
 This is what you're looking for: 
 ### Bandgaps
 | SnSe Layer | Bandgap |
-|--------|-----|--------------|------------------|-------|
+|--------|-----|
 | Monolayer | 1.1743 eV |
 | Bilayer | 0.9307 eV | 
 | Trilayer | 0.8397 eV | 1.1097 eV |
