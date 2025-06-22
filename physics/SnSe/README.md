@@ -17,12 +17,12 @@ I use Quantum Espresso (open source for the win!) to perform my SCF calculations
 
 This is what you're looking for: 
 ### Bandgaps
-| System | PBE | Pseudo-HSE06 | Literature HSE06 | Error |
+| SnSe Layer | Bandgap |
 |--------|-----|--------------|------------------|-------|
-| Monolayer | 1.1743 eV | 1.4443 eV | 1.44 eV | <0.01 eV |
-| Bilayer | 0.9307 eV | 1.2007 eV | 1.20 eV | <0.01 eV |
-| Trilayer | 0.8397 eV | **1.1097 eV** | *N/A* | *Novel* |
-| Bulk | 0.7523 eV | 1.0223 eV | 1.00 eV | +0.02 eV |
+| Monolayer | 1.1743 eV |
+| Bilayer | 0.9307 eV | 
+| Trilayer | 0.8397 eV | 1.1097 eV |
+| Bulk | 0.7523 eV | 1.0223 eV |
 
 Here's how we calculated them:
 
