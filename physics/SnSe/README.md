@@ -60,8 +60,6 @@ Why is this important? You can easily use monolayer, bilayer and trilayer values
 
 Feel free to just take the .out files in the repository and examine them- they have all the valuable information. All scripts, .CIF, and .dat files are provided (with the exception of the wavefunction .dat files due to the file size being over GitHub's limit, but you can regen it by running the .in file), so you can see all the data generated in the run.
 
-```
-
 ## References
 
 Batool, A., Zhu, Y., Ma, X., Saleem, M. I., & Cao, C. (2022). DFT study of the structural, electronic, and optical properties of bulk, monolayer, and bilayer Sn-monochalcogenides. *Applied Surface Science Advances*, *11*, 100275. https://doi.org/10.1016/j.apsadv.2022.100275
