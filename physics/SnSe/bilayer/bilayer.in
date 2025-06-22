@@ -1,0 +1,58 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'snse'
+  outdir = './bi/'
+  pseudo_dir = './'
+  verbosity = 'high'
+  tprnfor = .true.
+  tstress = .true.
+/
+
+&SYSTEM
+  ibrav = 0
+  nat = 16
+  ntyp = 2
+  ecutwfc = 50
+  ecutrho = 400
+  input_dft = 'pbe'
+  occupations = 'fixed'
+  smearing = 'gaussian'
+  nbnd = 150
+/
+
+&ELECTRONS
+  conv_thr = 1.0d-8
+  mixing_beta = 0.3
+  mixing_mode = 'plain'
+  startingpot = 'atomic'
+/
+
+ATOMIC_SPECIES
+Sn  118.710  Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+Se   78.960  Se.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+   4.12625095   0.00000000   0.00000000
+   0.00000000   4.70090745   0.00000000
+   0.00000000   0.00000000  38.33554150
+
+ATOMIC_POSITIONS crystal
+Sn  0.75000000  0.37655430  0.18827994
+Sn  0.25000000  0.87655430  0.26812910
+Sn  0.25000000  0.62344570  0.11599276
+Sn  0.75000000  0.12344570  0.03614360
+Se  0.25000000  0.50918180  0.04520063
+Se  0.25000000  0.99081820  0.19733697
+Se  0.75000000  0.00918180  0.10693571
+Se  0.75000000  0.49081820  0.25907207
+Sn  0.75000000  0.37655430  0.49255264
+Sn  0.25000000  0.87655430  0.57240179
+Sn  0.25000000  0.62344570  0.42026544
+Sn  0.75000000  0.12344570  0.34041629
+Se  0.25000000  0.50918180  0.34947332
+Se  0.25000000  0.99081820  0.50160968
+Se  0.75000000  0.00918180  0.41120841
+Se  0.75000000  0.49081820  0.56334476
+
+K_POINTS automatic
+6 6 1 0 0 0

@@ -1,0 +1,54 @@
+data_SnSe_trilayer
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.12625095
+_cell_length_b   4.70090745
+_cell_length_c   50.00000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnSe
+_chemical_formula_sum   'Sn12 Se12'
+_cell_volume   969.26361230
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sn2+  2.0
+  Se2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn2+  Sn0   1  0.75000000  0.37655430  0.14435627  1
+  Sn2+  Sn1   1  0.25000000  0.87655430  0.20557749  1
+  Sn2+  Sn2   1  0.25000000  0.62344570  0.08893290  1
+  Sn2+  Sn3   1  0.75000000  0.12344570  0.02771169  1
+  Se2-  Se4   1  0.25000000  0.50918180  0.03465582  1
+  Se2-  Se5   1  0.25000000  0.99081820  0.15130040  1
+  Se2-  Se6   1  0.75000000  0.00918180  0.08198877  1
+  Se2-  Se7   1  0.75000000  0.49081820  0.19863336  1
+  Sn2+  Sn8   1  0.75000000  0.37655430  0.37764544  1
+  Sn2+  Sn9   1  0.25000000  0.87655430  0.43886665  1
+  Sn2+  Sn10  1  0.25000000  0.62344570  0.32222207  1
+  Sn2+  Sn11  1  0.75000000  0.12344570  0.26100086  1
+  Se2-  Se12  1  0.25000000  0.50918180  0.26794498  1
+  Se2-  Se13  1  0.25000000  0.99081820  0.38458957  1
+  Se2-  Se14  1  0.75000000  0.00918180  0.31527794  1
+  Se2-  Se15  1  0.75000000  0.49081820  0.43192253  1
+  Sn2+  Sn16  1  0.75000000  0.37655430  0.61093461  1
+  Sn2+  Sn17  1  0.25000000  0.87655430  0.67215582  1
+  Sn2+  Sn18  1  0.25000000  0.62344570  0.55551124  1
+  Sn2+  Sn19  1  0.75000000  0.12344570  0.49429002  1
+  Se2-  Se20  1  0.25000000  0.50918180  0.50123415  1
+  Se2-  Se21  1  0.25000000  0.99081820  0.61787874  1
+  Se2-  Se22  1  0.75000000  0.00918180  0.54856711  1
+  Se2-  Se23  1  0.75000000  0.49081820  0.66521169  1
