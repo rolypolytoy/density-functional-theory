@@ -15,6 +15,17 @@ I use Quantum Espresso (open source for the win!) to perform my SCF calculations
 
 ## Results
 
+This is what you're looking for: 
+### Bandgaps
+| System | PBE | Pseudo-HSE06 | Literature HSE06 | Error |
+|--------|-----|--------------|------------------|-------|
+| Monolayer | 1.1743 eV | 1.4443 eV | 1.44 eV | <0.01 eV |
+| Bilayer | 0.9307 eV | 1.2007 eV | 1.20 eV | <0.01 eV |
+| Trilayer | 0.8397 eV | **1.1097 eV** | *N/A* | *Novel* |
+| Bulk | 0.7523 eV | 1.0223 eV | 1.00 eV | +0.02 eV |
+
+Here's how we calculated them:
+
 ### Raw PBE Bandgaps
 
 PBE is a pretty consistently bad method- it underestimates the bandgap of systems by a predictable amount. The raw PBE bandgaps calculated by QE are:
@@ -50,10 +61,10 @@ Validation accuracy: <0.01 eV error on known systems
 ### Corrected HSE06-Equivalent Bandgaps
 | System | PBE | Pseudo-HSE06 | Literature HSE06 | Error |
 |--------|-----|--------------|------------------|-------|
-| Bulk | 0.7523 eV | 1.0223 eV | 1.00 eV | +0.02 eV |
-| Trilayer | 0.8397 eV | **1.1097 eV** | *N/A* | *Novel* |
-| Bilayer | 0.9307 eV | 1.2007 eV | 1.20 eV | <0.01 eV |
 | Monolayer | 1.1743 eV | 1.4443 eV | 1.44 eV | <0.01 eV |
+| Bilayer | 0.9307 eV | 1.2007 eV | 1.20 eV | <0.01 eV |
+| Trilayer | 0.8397 eV | **1.1097 eV** | *N/A* | *Novel* |
+| Bulk | 0.7523 eV | 1.0223 eV | 1.00 eV | +0.02 eV |
 
 ## Technical Notes
 Why is this important? You can easily use monolayer, bilayer and trilayer values as x = 1, 2, 3 for an exponential decay curve where when x is infinity, the y-value is the eV of bulk. We can also see the difference in band gap between bulk and monolayer SnSe is quite large, and in terms of bandgap mono > bi > tri > bulk, which means tuning bandgap in it is a function of thickness, and it changes quite predictably and in a well-behaved manner.
