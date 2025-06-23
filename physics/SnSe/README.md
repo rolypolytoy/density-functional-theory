@@ -72,7 +72,7 @@ Why is this important? You can easily use monolayer, bilayer and trilayer values
 Feel free to just take the .out files in the repository and examine them- they have all the valuable information. All scripts, .CIF, and .dat files are provided (with the exception of the wavefunction .dat files due to the file size being over GitHub's limit, but you can regen it by running the .in file), so you can see all the data generated in the run.
 
 ## Experimental Stuff
-SnSe being fabricated via RF sputtering in Ar plasma (credit @rolypolytoy, i.e. me):
+SnSe being fabricated via RF sputtering in Ar plasma:
 
 ![SnSe](https://github.com/user-attachments/assets/4599d058-f748-4fbe-83ab-f3407e79a46e)
 
