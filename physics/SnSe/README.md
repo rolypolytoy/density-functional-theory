@@ -5,17 +5,7 @@ Tin Selenide (SnSe) is a semiconductor, and is the most thermoelectric material 
 ## Overview
 I use Quantum Espresso (open source for the win!) to perform my SCF calculations for monolayer, bilayer, trilayer and bulk bandgaps for SnSe's Pnma62 orthorhombic orientation. You can find [CIF files](https://legacy.materialsproject.org/materials/mp-691/) either through the link or in the repository. The latter is easier but the former is if you want to get it straight from the source. 
 
-## Methodology
-
-### Computational Setup
-- **Code**: Quantum ESPRESSO 7.0
-- **Functional**: PBE
-- **K-point Sampling**: 6×6×1 (slabs), 6×6×6 (bulk)
-- **Vacuum Spacing**: ~15 Å for 2D slabs
-
-## Results
-
-This is what you're looking for: 
+Here's what you're looking for, by the way:
 ### Bandgaps
 | SnSe Layer | Bandgap |
 |--------|-----|
@@ -24,8 +14,15 @@ This is what you're looking for:
 | Trilayer | 1.1097 eV |
 | Bulk | 1.0223 eV |
 
-Here's how we calculated them:
+## Methodology
 
+### Computational Setup
+- **Code**: Quantum ESPRESSO 7.0
+- **Functional**: PBE
+- **K-point Sampling**: 6×6×1 (slabs), 6×6×6 (bulk)
+- **Vacuum Spacing**: ~15 Å for 2D slabs
+
+## Methods
 ### Raw PBE Bandgaps
 
 PBE is a pretty consistently bad method- it underestimates the bandgap of systems by a predictable amount. The raw PBE bandgaps calculated by QE are:
