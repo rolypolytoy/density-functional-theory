@@ -7,7 +7,7 @@ I use Quantum Espresso (open source for the win!) to perform my SCF calculations
 
 Here's what you're looking for, by the way:
 ### Bandgaps
-| SnSe Layer | Bandgap |
+| SnSe Film | Bandgap |
 |--------|-----|
 | Monolayer | 1.4443 eV |
 | Bilayer | 1.2007 eV | 
