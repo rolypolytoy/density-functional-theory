@@ -71,6 +71,17 @@ Why is this important? You can easily use monolayer, bilayer and trilayer values
 
 Feel free to just take the .out files in the repository and examine them- they have all the valuable information. All scripts, .CIF, and .dat files are provided (with the exception of the wavefunction .dat files due to the file size being over GitHub's limit, but you can regen it by running the .in file), so you can see all the data generated in the run.
 
+## Experimental Stuff
+SnSe being fabricated via RF sputtering in Ar plasma (credit @rolypolytoy, i.e. me):
+
+![SnSe](https://github.com/user-attachments/assets/4599d058-f748-4fbe-83ab-f3407e79a46e)
+
+IV curve of a (prospective) solar cell under a solar lamp, vs under dark current. It shows photoresistive behavior but unfortunately no photovoltaic behavior, and uses SnSe thin films as an integral part of its 3D structure:
+
+![20250617_160955](https://github.com/user-attachments/assets/15121d6d-d45d-4722-9172-6197fda8b56a)
+
+This DFT study was done due to ongoing nanofabrication research at Delhi University's Multidisciplinary Research Center. Any and all files in this repo are associated with the Unlicense license and so there's no copyright restrictions at all. It's fully open-source.
+
 ## References
 
 Batool, A., Zhu, Y., Ma, X., Saleem, M. I., & Cao, C. (2022). DFT study of the structural, electronic, and optical properties of bulk, monolayer, and bilayer Sn-monochalcogenides. *Applied Surface Science Advances*, *11*, 100275. https://doi.org/10.1016/j.apsadv.2022.100275
