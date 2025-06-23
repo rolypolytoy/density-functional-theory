@@ -19,10 +19,10 @@ This is what you're looking for:
 ### Bandgaps
 | SnSe Layer | Bandgap |
 |--------|-----|
-| Monolayer | 1.1743 eV |
-| Bilayer | 0.9307 eV | 
-| Trilayer | 0.8397 eV | 1.1097 eV |
-| Bulk | 0.7523 eV | 1.0223 eV |
+| Monolayer | 1.4443 eV |
+| Bilayer | 1.2007 eV | 
+| Trilayer | 1.1097 eV |
+| Bulk | 1.0223 eV |
 
 Here's how we calculated them:
 
