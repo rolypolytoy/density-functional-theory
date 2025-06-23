@@ -3,7 +3,7 @@
 Tin Selenide (SnSe) is a semiconductor, and is the most thermoelectric material ever found. Understanding its interesting properties such as its tunable bandgap and interesting thin-film properties are key to actually making full use of this novel material.
 
 ## Overview
-I use Quantum Espresso (open source for the win!) to perform my SCF calculations for monolayer, bilayer, trilayer and bulk bandgaps for SnSe's Pnma62 orthorhombic orientation. You can find [CIF files](https://legacy.materialsproject.org/materials/mp-691/) either through the link or in the repository. The latter is easier but the former is if you want to get it straight from the source. 
+I use Quantum Espresso to perform my SCF calculations for monolayer, bilayer, trilayer and bulk bandgaps for SnSe's Pnma62 orthorhombic orientation. You can find [CIF files](https://legacy.materialsproject.org/materials/mp-691/) either through the link or in the repository. The latter is easier but the former is if you want to get it straight from the source. 
 
 Here's what you're looking for, by the way:
 ### Bandgaps
@@ -77,7 +77,7 @@ IV curve of a (prospective) solar cell under a solar lamp, vs under dark current
 
 ![20250617_160955](https://github.com/user-attachments/assets/15121d6d-d45d-4722-9172-6197fda8b56a)
 
-This DFT study was done due to ongoing nanofabrication research at Delhi University's Multidisciplinary Research Center. Any and all files in this repo are associated with the Unlicense license and so there's no copyright restrictions at all. It's fully open-source.
+This DFT study was done due to ongoing nanofabrication research at Delhi University's Multidisciplinary Research Center.
 
 ## References
 
