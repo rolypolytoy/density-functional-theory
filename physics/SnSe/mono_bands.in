@@ -1,0 +1,48 @@
+&CONTROL
+  calculation = 'bands'
+  prefix = 'snse'
+  outdir = './mono/'
+  pseudo_dir = './'
+  verbosity = 'high'
+/
+
+&SYSTEM
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  ecutwfc = 50
+  ecutrho = 400
+  input_dft = 'pbe'
+  occupations = 'fixed'
+  nbnd = 100
+/
+
+&ELECTRONS
+  conv_thr = 1.0d-8
+/
+
+ATOMIC_SPECIES
+Sn  118.710  Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+Se   78.960  Se.pbe-dn-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+   4.12625095   0.00000000   0.00000000
+   0.00000000   4.70090745   0.00000000
+   0.00000000   0.00000000  26.67108300
+
+ATOMIC_POSITIONS crystal
+Sn  0.75000000  0.37655430  0.27062318
+Sn  0.25000000  0.87655430  0.38539396
+Sn  0.25000000  0.62344570  0.16672158
+Sn  0.75000000  0.12344570  0.05195081
+Se  0.25000000  0.50918180  0.06496889
+Se  0.25000000  0.99081820  0.28364127
+Se  0.75000000  0.00918180  0.15370349
+Se  0.75000000  0.49081820  0.37237588
+
+K_POINTS crystal_b
+4
+0.0000 0.0000 0.0000 20  ! Gamma
+0.5000 0.0000 0.0000 20  ! X  
+0.5000 0.5000 0.0000 20  ! M
+0.0000 0.0000 0.0000 1   ! Gamma
