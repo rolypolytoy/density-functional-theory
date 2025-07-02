@@ -1,0 +1,282 @@
+
+     Program PHONON v.7.0 starts on  1Jul2025 at 12:24:19 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     3085 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+      Title line not specified: using 'default'.
+
+     Reading xml data from directory:
+
+     ./mono/snse.save/
+     file Sn.pbe-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  5S 5P 4D renormalized
+     file Se.pbe-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P 3D renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         276     137     40                58964    20847    3250
+     Max         277     138     41                58981    20862    3265
+     Sum        2209    1101    323               471737   166827   26041
+
+     Using Slab Decomposition
+
+
+     negative rho (up, down):  1.029E-03 0.000E+00
+     Reading collected, re-writing distributed wavefunctions
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     default                                                                    
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       7.7975  a.u.
+     unit-cell volume          =    3491.1989 (a.u.)^3
+     number of atoms/cell      =            8
+     number of atomic types    =            2
+     kinetic-energy cut-off    =      50.0000  Ry
+     charge density cut-off    =     400.0000  Ry
+     convergence threshold     =      1.0E-08
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=    7.79748  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.1393  0.0000 )  
+               a(3) = (  0.0000  0.0000  6.4638 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  0.8778  0.0000 )  
+               b(3) = (  0.0000  0.0000  0.1547 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1     Sn 118.7100   tau(    1) = (    0.75000    0.42900    1.74924  )
+        2     Sn 118.7100   tau(    2) = (    0.25000    0.99863    2.49109  )
+        3     Sn 118.7100   tau(    3) = (    0.25000    0.71027    1.07765  )
+        4     Sn 118.7100   tau(    4) = (    0.75000    0.14064    0.33580  )
+        5     Se  78.9600   tau(    5) = (    0.25000    0.58009    0.41994  )
+        6     Se  78.9600   tau(    6) = (    0.25000    1.12881    1.83339  )
+        7     Se  78.9600   tau(    7) = (    0.75000    0.01046    0.99350  )
+        8     Se  78.9600   tau(    8) = (    0.75000    0.55917    2.40695  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =  616.0405  (  58966 G-vectors)     FFT grid: ( 50, 60,324)
+     G cutoff =  308.0202  (  20847 G-vectors)  smooth grid: ( 36, 40,240)
+     number of k points=    16
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0555556
+        k(    2) = (   0.0000000   0.1462927   0.0000000), wk =   0.1111111
+        k(    3) = (   0.0000000   0.2925854   0.0000000), wk =   0.1111111
+        k(    4) = (   0.0000000  -0.4388781   0.0000000), wk =   0.0555556
+        k(    5) = (   0.1666667   0.0000000   0.0000000), wk =   0.1111111
+        k(    6) = (   0.1666667   0.1462927   0.0000000), wk =   0.2222222
+        k(    7) = (   0.1666667   0.2925854   0.0000000), wk =   0.2222222
+        k(    8) = (   0.1666667  -0.4388781   0.0000000), wk =   0.1111111
+        k(    9) = (   0.3333333   0.0000000   0.0000000), wk =   0.1111111
+        k(   10) = (   0.3333333   0.1462927   0.0000000), wk =   0.2222222
+        k(   11) = (   0.3333333   0.2925854   0.0000000), wk =   0.2222222
+        k(   12) = (   0.3333333  -0.4388781   0.0000000), wk =   0.1111111
+        k(   13) = (  -0.5000000   0.0000000   0.0000000), wk =   0.0555556
+        k(   14) = (  -0.5000000   0.1462927   0.0000000), wk =   0.1111111
+        k(   15) = (  -0.5000000   0.2925854   0.0000000), wk =   0.1111111
+        k(   16) = (  -0.5000000  -0.4388781   0.0000000), wk =   0.0555556
+
+     PseudoPot. # 1 for Sn read from file:
+     ./Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: d69e53522d199ccc4f306ae57c56b55d
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1243 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Se read from file:
+     ./Se.pbe-dn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 4f8dd506ed2a5e2391ebbdbef81d58a8
+     Pseudo is Projector augmented-wave + core cor, Zval = 16.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1211 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_s (m)     point group:
+
+
+     Atomic displacements:
+     There are   24 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      1 modes -  To be done
+
+     Representation     6      1 modes -  To be done
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes -  To be done
+
+     Representation    17      1 modes -  To be done
+
+     Representation    18      1 modes -  To be done
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes -  To be done
+
+     Representation    23      1 modes -  To be done
+
+     Representation    24      1 modes -  To be done
+
+
+
+     Alpha used in Ewald sum =   2.8000
+
+     negative rho (up, down):  1.029E-03 0.000E+00
+     PHONON       :   4m45.72s CPU   6m14.54s WALL
+
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :   679.7 secs   av.it.:   6.8
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  1.473E-06
+
+      iter #   2 total cpu time :  1199.5 secs   av.it.:  14.8
+      thresh= 1.214E-04 alpha_mix =  0.700 |ddv_scf|^2 =  1.838E-05
+
+      iter #   3 total cpu time :  1631.7 secs   av.it.:  11.6
+      thresh= 4.287E-04 alpha_mix =  0.700 |ddv_scf|^2 =  3.744E-07
+
+      iter #   4 total cpu time :  2154.4 secs   av.it.:  14.3
+      thresh= 6.119E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.090E-07
+
+      iter #   5 total cpu time :  2644.7 secs   av.it.:  12.8
+      thresh= 3.302E-05 alpha_mix =  0.700 |ddv_scf|^2 =  2.426E-08
+
+      iter #   6 total cpu time :  3107.2 secs   av.it.:  12.8
+      thresh= 1.557E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.006E-08
+
+      iter #   7 total cpu time :  3574.7 secs   av.it.:  12.9
+      thresh= 1.003E-05 alpha_mix =  0.700 |ddv_scf|^2 =  4.004E-10
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+
+
+     Representation #   2 mode #   2
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :  3874.3 secs   av.it.:   6.9
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  1.230E-06
+
+      iter #   2 total cpu time :  4404.6 secs   av.it.:  14.8
+      thresh= 1.109E-04 alpha_mix =  0.700 |ddv_scf|^2 =  1.368E-05
+
+      iter #   3 total cpu time :  4833.5 secs   av.it.:  11.6
+      thresh= 3.699E-04 alpha_mix =  0.700 |ddv_scf|^2 =  4.108E-07
+
+      iter #   4 total cpu time :  5312.9 secs   av.it.:  14.1
+      thresh= 6.410E-05 alpha_mix =  0.700 |ddv_scf|^2 =  8.687E-08
+
+      iter #   5 total cpu time :  6111.2 secs   av.it.:  12.8
+      thresh= 2.947E-05 alpha_mix =  0.700 |ddv_scf|^2 =  2.157E-08
+
+      iter #   6 total cpu time :  6571.9 secs   av.it.:  12.8
+      thresh= 1.469E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.008E-08
+
+      iter #   7 total cpu time :  7037.7 secs   av.it.:  12.9
+      thresh= 1.004E-05 alpha_mix =  0.700 |ddv_scf|^2 =  3.055E-10
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+
+
+     Representation #   3 mode #   3
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :  7342.3 secs   av.it.:   6.8
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  2.977E-07

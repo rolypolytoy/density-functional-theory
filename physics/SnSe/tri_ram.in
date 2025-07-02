@@ -1,0 +1,8 @@
+&inputph
+tr2_ph = 1.0d-8
+prefix = 'snse'
+outdir = './tri/'
+fildyn = 'snse_us.dyn'
+trans = .true.
+/
+0.0 0.0 0.0

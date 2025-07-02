@@ -1,0 +1,6 @@
+&input
+fildyn = 'snse_us.dyn'
+asr = 'crystal'
+filout = 'mono_spectra.out'
+filmol = 'mono_modes.out'
+/

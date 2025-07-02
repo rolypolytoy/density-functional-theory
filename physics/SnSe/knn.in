@@ -1,0 +1,52 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'knn'
+  outdir = './knn/'
+  pseudo_dir = './'
+  verbosity = 'high'
+  tprnfor = .true.
+  tstress = .true.
+/
+
+&SYSTEM
+  ibrav = 0
+  nat = 8
+  ntyp = 4
+  ecutwfc = 60
+  ecutrho = 480
+  input_dft = 'pbe'
+  occupations = 'fixed'
+  smearing = 'gaussian'
+  nbnd = 150
+/
+
+&ELECTRONS
+  conv_thr = 1.0d-8
+  mixing_beta = 0.3
+  mixing_mode = 'plain'
+  startingpot = 'atomic'
+/
+
+ATOMIC_SPECIES
+Na  22.990  Na.pbe-spn-kjpaw_psl.1.0.0.UPF
+K   39.098  K.pbe-spn-kjpaw_psl.1.0.0.UPF
+Nb  92.906  Nb.pbe-spn-kjpaw_psl.1.0.0.UPF
+O   15.999  O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+   5.65730000   0.00000000   0.00000000
+   0.00000000   3.95510000   0.00000000
+   0.00000000   0.00000000  11.34340000
+
+ATOMIC_POSITIONS crystal
+Nb  0.00000000  0.50011400  0.25001300
+O   0.24888200  0.50011400  0.10896200
+O   0.00000000  0.00000000  0.23061900
+Na  0.00000000  0.00000000  0.00396700
+Nb  0.00000000  0.50011400  0.75004000
+O   0.24888200  0.50011400  0.60898800
+O   0.00000000  0.00000000  0.73064500
+K   0.00000000  0.00000000  0.49200400
+
+K_POINTS automatic
+6 6 6 0 0 0
