@@ -1,0 +1,6 @@
+&bands
+  prefix = 'sns'
+  outdir = './bulk/'
+  filband = 'bulk_bands.dat'
+  lsym = .true.
+/

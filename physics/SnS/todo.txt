@@ -1,0 +1,10 @@
+SnS (orthorhombic) PBE calculations (SCF) and comparison with HSE values from literature.
+SnS bulk bandgap: 0.9763 eV (PBE) vs 1.24 eV (HSE) using the 0.27 eV upshift: 1.2463 eV.
+SnS tri bandgap: 1.0162 eV (PBE), no HSE in literature.
+SnS bi bandgap: 1.0778 eV (PBE) vs 1.60 eV (HSE).  0.5222 eV upshift.
+SnS mono bandgap: 1.2535 eV (PBE) vs 1.96 eV (HSE). 0.7065 upshift.
+For relative trends, it's effective, but in absolute trends it remains unpredictable.
+
+Why PBE is still valuable over purely extrapolating from HSE: band diagrams. Generate band diagrams for all 4.
+
+ALIGNN calculations for SnS and SnSe's band gaps and misc stuff etc. That's all.

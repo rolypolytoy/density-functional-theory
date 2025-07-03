@@ -1,0 +1,6 @@
+&bands
+  prefix = 'sns'
+  outdir = './bi/'
+  filband = 'bi_bands.dat'
+  lsym = .true.
+/

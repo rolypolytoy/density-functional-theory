@@ -1,0 +1,6 @@
+&bands
+  prefix = 'sns'
+  outdir = './tri/'
+  filband = 'tri_bands.dat'
+  lsym = .true.
+/

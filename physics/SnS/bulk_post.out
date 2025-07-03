@@ -1,0 +1,10 @@
+     Input file > Reading  100 bands at    101 k-points
+file with representations not compatible with bands
+Range:  -13.6640   28.7800eV  Emin, Emax, [firstk, lastk] > high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+high-symmetry point:  0.5000 0.0000 0.0000   x coordinate   0.5000
+high-symmetry point:  0.5000 0.4365 0.0000   x coordinate   0.9365
+high-symmetry point:  0.5000 0.4365 0.1737   x coordinate   1.1101
+high-symmetry point:  0.0000 0.0000 0.1737   x coordinate   1.7738
+high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.9475
+output file (gnuplot/xmgr) > bands in gnuplot/xmgr format written to file bulk_bands.gnu                                                                                                                                                                                                                                                  
+output file (ps) > Efermi > deltaE, reference E (for tics) bands in PostScript format written to file bulk_bands.ps                                                                                                                                                                                                                                                   

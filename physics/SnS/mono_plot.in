@@ -1,0 +1,6 @@
+&bands
+  prefix = 'sns'
+  outdir = './mono/'
+  filband = 'mono_bands.dat'
+  lsym = .true.
+/
