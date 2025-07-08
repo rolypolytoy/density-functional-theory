@@ -1,0 +1,9 @@
+&dos
+ prefix = 'CuO'
+ outdir = './tmp/'
+ fildos = 'CuO.dos'
+ degauss = 0.01
+ Emin = -10.0
+ Emax = 20.0
+ DeltaE = 0.01
+/

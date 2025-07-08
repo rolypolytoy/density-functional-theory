@@ -1,0 +1,8 @@
+&dos
+ prefix = 'SnO2'
+ outdir = './tmp/'
+ fildos = 'SnO2.dos'
+ Emin = -10.0
+ Emax = 20.0
+ DeltaE = 0.01
+/

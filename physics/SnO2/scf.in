@@ -1,0 +1,35 @@
+&control
+ calculation = 'scf'
+ prefix = 'SnO2'
+ pseudo_dir = './'
+ outdir = './tmp/'
+ verbosity = 'high'
+/
+&system
+ ibrav = 6
+ a = 4.76481805, c = 3.20749977
+ nat = 6, ntyp = 2
+ ecutwfc = 60
+ ecutrho = 480
+ occupations = 'fixed'
+ input_dft = 'pbe'
+ nbnd = 40
+/
+&electrons
+ mixing_beta = 0.3
+ conv_thr = 1.0d-6
+/
+ATOMIC_SPECIES
+Sn 118.71 Sn.pbe-dn-kjpaw_psl.1.0.0.UPF
+O  15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+Sn 0.50000000 0.50000000 0.50000000
+Sn 0.00000000 0.00000000 0.00000000
+O  0.80597230 0.19402771 0.50000000
+O  0.19402771 0.80597230 0.50000000
+O  0.30597230 0.30597230 0.00000000
+O  0.69402770 0.69402770 0.00000000
+
+K_POINTS automatic
+6 6 6 0 0 0

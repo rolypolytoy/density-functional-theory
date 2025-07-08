@@ -10,10 +10,14 @@ Trilayer: 0.945 eV
 Bulk: 0.933 eV
 
 SnSe Series (Tin Selenide)
-Monolayer: 0.61 eV
+Monolayer: 0.610 eV
 Bilayer: 0.666 eV
 Trilayer: 0.686 eV
 Bulk: 0.724 eV
+
+Important results: eV of the same element is relatively self-consistent which shows internal self-consistency.
+It also correctly shows a good understanding of relative energies between different compounds- e.g. the higher bandgap material SnS was found, by ALIGNN, to be consistently higher than the lower-bandgap SnSe.
+In the case of SnS it also correctly showed the relative order of bandgaps, however interestingly in SnSe it inverted it entirely. The complete inversion rather than a random ordering indicates it has likely some awareness of 2-dimensional vs 3-dimensional materials, which indicates promise in GNNs as the future of the field.
 
 Outputs:
 Formation energy/atom (eV):-0.461
